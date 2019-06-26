@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job Search</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+
+<body>
+    <div class="whole">
+        <div class="display">
+            <div class="center">
+                <input class="input" id="num1">
+                <div class="btns">
+                    <button class="button" id="add" onclick="operator('add')">+</button>
+                    <button class="button" id="sub" onclick="operator('sub')">-</button>
+                    <br>
+                    <button class="button" id="multi" onclick="operator('multi')">*</button>
+                    <button class="button" id="divi" onclick="operator('divi')">/</button>
+                </div>
+                <input class="input" id="num2">
+                <div class="answers">
+                    <div class="eql">=</div>
+                </div>
+                <div class="answer" id="expand">
+                    <div class="here" id="answer"></div>
+                </div>
+            </div>
+            <button class="box" id="box" onclick="myFunction()">
+                    <div class="go">GO!</div>
+                </button>
+            </div>
+            <br>
+        <button onclick="clearabc()">Clear</button>
+    </div>
+    <script src="job.js">
+    </script>
+</body>
+
+</html>

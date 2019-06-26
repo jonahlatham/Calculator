@@ -1,0 +1,108 @@
+.whole {
+    text-align: center;
+}
+
+.input {
+    margin: 5px;
+    box-shadow: 5px 5px 7px grey;
+    border-style: outset;
+    font-family: sans-serif;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+.button {
+    width: 35px;
+    height: 20px;
+    border-radius: 7px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.display {
+    background: antiquewhite;
+    width: 400px;
+    height: 425px;
+    margin: auto;
+    border-style: inset;
+    border-width: 20px;
+    border-color: antiquewhite;
+    box-shadow: 20px 20px 12px grey;
+    margin-top: 15%;
+
+}
+
+.center {
+    margin-top: 10px;
+    display: flex;
+}
+
+.button:focus {
+    outline: none;
+    background-color: lightblue;
+}
+
+.box {
+    width: 275px;
+    height: 275px;
+    background: dimgray;
+    margin: auto;
+    margin-top: 17px;
+    box-shadow: 15px 15px 10px grey;
+    border-style: inset;
+    border-width: 10px;
+    border-color: darkgray;
+    overflow: scroll;
+}
+
+.box:focus {
+    outline: none;
+}
+
+.box:active {
+    border-style: outset;
+    border-width: 2px;
+    opacity: .8;
+}
+
+.answers{
+    background: white;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin-top: 4px;
+    margin-left: 7px;
+    margin-right: 7px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
+
+.answer {
+    background: white;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin-top: 4px;
+    margin-left: 7px;
+    margin-right: 7px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
+
+.eql {
+    margin-top: -5px;
+    font-size: 30px;
+}
+
+.go {
+    font-size: 125px;
+    color: antiquewhite;
+}
+
+.here {
+    margin-top: 1px;
+    font-size: 25px;
+}
